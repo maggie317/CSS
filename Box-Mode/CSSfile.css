@@ -1,0 +1,16 @@
+.parent{
+    width:85%;
+    /* height:600px;
+    border:2px solid blue; */
+}
+.child-1,.child-2,.child-3,.child-4{
+    display: inline-block;
+    width:250px;
+    /* height:500px;
+    border:2px solid purple; */
+    margin-left: 50px;
+    margin-top: 40px;
+    img{
+        width:100%;
+    }
+}
