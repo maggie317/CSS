@@ -1,0 +1,124 @@
+
+:root{
+    --Primary-color:#ABA7E0; 
+    --Secondary-color:#000000,#FFFFFE; 
+    --Accent-color: #8E24D9;
+}
+
+
+
+body{
+  
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;
+}
+.container{
+   width:500px;
+    height:350px;
+    /* border: 2px solid; */
+    border-radius: 20px;
+    background-color: var(--Primary-color);
+}
+.container-1{
+    display: flex;
+    justify-content: end;
+}
+
+
+.top{
+flex-basis: 0px;
+/* border: 2px solid; */
+height:20px;
+margin-right: 20px;
+margin-top: 10px;
+color:var(--Secondary-color);
+}
+.container-2{
+ width: 500px;
+ height:200px;
+ /* border: 2px solid; */
+
+}
+.container-2 .h1{
+   text-align: center;
+   margin-top: 70px;
+   
+}
+.container-2 .h2{
+    text-align: center;
+   
+}
+button{
+    border: none;
+    border-radius: 20px;
+     padding:10px;
+     color: #FFFFFE;
+     background-color: #8E24D9;
+     margin-left: 200px;
+}
+.container-3{
+    width:500px;
+    height:50px;
+    /* border:2px solid; */
+    border-radius: 0px 0px 20px 20px;
+    background-color:#FFFFFE;
+    display: flex;
+    display: none;
+    position: relative;
+}
+.input1{
+    width:230px;
+    height:15px;
+    /* border: 2px solid; */
+    margin-top: 15px;
+    background-color:#ABA7E0;
+     border: none;
+}
+.input2{
+    width:70px;
+    height:15px;
+     /* border: 2px solid; */
+    margin-top: 15px;
+    background-color: #000000;
+    border: none;
+}
+.input3{
+    width:70px;
+    height:15px;
+     /* border: 2px solid; */
+    margin-top: 15px;
+    background-color: #FFFFFE;
+    border: none;
+}
+.input4{
+    width:50px;
+    height:15px;
+     /* border: 2px solid; */
+    margin-top: 15px;
+    background-color:#8E24D9;
+    border: none;
+   
+}
+.icon{
+    border-radius: 50%;
+    /* border:2px solid; */
+    width:30px;
+    height:30px;
+    margin-top: -20px;
+    margin-left: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color:white ;
+    background-color: blue;
+    position: absolute;
+
+}
+.container:hover .container-3 {
+    display:block;
+}
+
+
