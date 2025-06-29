@@ -1,0 +1,66 @@
+
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eaeaea;
+    }
+
+    .container {
+      width: 800px;
+      height:600px;
+      background-color: darkcyan;
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    .controls {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .controls button {
+        margin-top: -200px;
+        margin-left: 50px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 5px;
+      /* cursor: pointer; */
+    }
+
+    .child {
+      width: 150px;
+      height: 150px;
+      margin-top: 300px;
+      margin-left:-350px ;
+      background-color: blueviolet;
+      border: 2px solid black;
+      border-radius: 10px;
+      transition: transform 0.5s ease;
+    }
+    .translate:hover ~ .child {
+      transform: translateX(-200px);
+    }
+
+    .scale:hover ~ .child {
+      transform: scale(1.5);
+    }
+
+    .rotate:hover ~ .child {
+      transform: rotate(300deg);
+    }
+
+    .skew:hover ~ .child {
+      transform: skew(70deg);
+    }
+  
